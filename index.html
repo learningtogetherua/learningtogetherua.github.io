@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="ua">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,19 +10,19 @@
     <link rel="stylesheet" href="css/slick.css"> <!-- В цьому файлі НЕ варто робити зміни -->
     <link rel="stylesheet" href="css/style.css"> <!-- В цьому файлі можна робити зміни зовнішньоло вигляду сайту -->
 </head>
-
 <body>
     <!-- Код першої частини -->
     <header class="header">
         <div class="container">
             <div class="header__inner">
                 <div class="inner__left">
-                    <img src="img/logo.png" alt=""> <!-- Для зміни зображення логотипу -->
-                    <h1 class="header__title"><a href="#">Навчаємося Разом</a></h1> <!-- Для зміни назви сайту -->
+                    <img src="img/logo.png" alt=""> <!-- Зображення логотипу -->
+                    <h1 class="header__title"><a href="#">Навчаємося Разом</a></h1> <!-- Назва сайту -->
                 </div>
                 <nav class="nav">
                     <button class="nav__btn">
                         <ul class="nav__menu">
+                            <!-- Пункти меню (натискання на "бургер") -->
                             <li class="nav__menu-item"><a href="#about">Про Мене</a></li>
                             <li class="nav__menu-item"><a href="#_feauters">Можливості</a></li>
                             <li class="nav__menu-item"><a href="#youtube">YouTube</a></li>
@@ -31,26 +30,26 @@
                             <li class="nav__menu-item"><a href="#contacts">Контакти</a></li>
                         </ul>
                     </button>
-
                 </nav>
             </div>
-            <div class="header__slider">
-                <div class="header__slider-item">
-                    <h2>Програмування Для Малюків</h2>
+            <div class="header__slider"><!-- Оболонка слайдера-->
+                <div class="header__slider-item"><!-- Оболонка першого слайда-->
+                    <h2>Програмування Для Малюків</h2><!-- Заголовок першого слайду-->
+                    <!-- Опис на першому слайді-->
                     <p>Відео-курс для дітей 5-8 років. Знайомство з основами алгоритмів та програмування.</p>
-                    <a href="#">Подробиці</a>
+                    <a href="#">Подробиці</a><!-- Кнопка я може замість # мати в собі посилання на зовнішні ресурси-->
                 </div>
-                <div class="header__slider-item">
+                <div class="header__slider-item"><!-- Оболонка другого слайда-->
                     <h2>Основи Програмування</h2>
                     <p>Індивідуальні онлайн-заняття для дітей 9-11 років. Візуальне програмування у Scratch 3.0</p>
                     <a href="#">Подробиці</a>
                 </div>
-                <div class="header__slider-item">
+                <div class="header__slider-item"><!-- Оболонка третього слайда-->
                     <h2>Основи IT-Освіти</h2>
                     <p>Відео-курс для дітей 10-13 років з менторською підтримкою або індивідуальні онлайн-заняття</p>
                     <a href="#">Подробиці</a>
                 </div>
-                <div class="header__slider-item">
+                <div class="header__slider-item"><!-- Оболонка четвертого слайда-->
                     <h2>Створення Сайтів</h2>
                     <p>Індивідуальні онлайн-заняття або формат відео-курсу (можлива менторська підтримка)</p>
                     <a href="#">Подробиці</a>
@@ -58,21 +57,18 @@
             </div>
         </div>
     </header>
-
+    <!-- Код другої частини -->
     <section class="intro">
         <div class="container">
-
             <div class="intro__inner">
                 <div class="intro__img">
-                    <img src="img/intro.png" alt="">
+                    <img src="img/intro.png" alt=""><!-- Основне зображення другої частини -->
                 </div>
-
-                <div class="intro__text">
+                <div class="intro__text"><!-- Текстова частина другої частини -->
                     <h3 id="about">Вітаю!</h3>
-                    <p>Моє ім'я Іван. Пропоную для навчання вашої дитини серії відео-курсів або індивідуальні
-                        онлайн-заняття. Досвід роботи у освітніх закладах України 20 років.</p>
+                    <p>Моє ім'я Іван. Пропоную для навчання вашої дитини серії відео-курсів або індивідуальні онлайн-заняття. Досвід роботи у освітніх закладах України 20 років.</p>
                 </div>
-
+                <!-- Блок з переліком переваг -->
                 <div class="intro__items">
                     <ul class="items-list">
                         <li>Власний графік</li>
@@ -81,157 +77,103 @@
                     </ul>
                 </div>
             </div>
-
         </div>
     </section>
-
+    <!-- Код третьої частини -->
     <section class="feauters">
         <div class="container">
-
-            <h2 class="section__title" id="_feauters">
-                Можливості
-            </h2>
-
+            <h2 class="section__title" id="_feauters">Можливості</h2><!-- Заголовок третьої частини -->
             <div class="feauters__inner">
-
-                <div class="feauters__item">
-
+                <div class="feauters__item"><!-- Перший блок інформації третьої частини -->
                     <div class="feauters__img">
-                        <img src="img/features_icons/online_test.png" alt="">
+                        <img src="img/features_icons/online_test.png" alt=""><!-- Зображення першого блоку інформації третьої частини -->
                     </div>
-
-                    <h3 class="feauters__title">Самостійне навчання</h3>
-
-                    <p class="feauters__text">
-                        На моєму YouTube-каналі "Навчаємося Разом" у відкритому доступі є багато матеріалів для
-                        самостійного опанування за різними напрямками.
+                    <h3 class="feauters__title">Самостійне навчання</h3><!-- Заголовок першого блоку інформації третьої частини -->
+                    <p class="feauters__text"><!-- Опис першого блоку інформації третьої частини -->
+                        На моєму YouTube-каналі "Навчаємося Разом" у відкритому доступі є багато матеріалів для самостійного опанування за різними напрямками.
                     </p>
-
                 </div>
-                <div class="feauters__item">
-
+                <div class="feauters__item"><!-- Другий блок інформації третьої частини -->
                     <div class="feauters__img">
                         <img src="img/features_icons/professional_course.png" alt="">
                     </div>
-
                     <h3 class="feauters__title">Менторська підтримка</h3>
-
                     <p class="feauters__text">
-                        Самостійне ознайомлення з відео-матеріалами. Отримання матеріалів за графіком, спілкування з
-                        ментором, отримання індивідуальних домашніх завдань.
+                        Самостійне ознайомлення з відео-матеріалами. Отримання матеріалів за графіком, спілкування з ментором, отримання індивідуальних домашніх завдань.
                     </p>
-
                 </div>
-                <div class="feauters__item">
-
+                <div class="feauters__item"><!-- Третій блок інформації третьої частини -->
                     <div class="feauters__img">
                         <img src="img/features_icons/audio_video.png" alt="">
                     </div>
-
-                    <h3 class="feauters__title">Індивідуальні онлайн-заняття</h3>
-
+                    <h3 class="feauters__title">Індивідуальні заняття</h3>
                     <p class="feauters__text">
-                        Заняття з одним учнем онлайн за певним графіком. Консультування з вчителем між заняттями,
-                        отримання індивідуальних домашніх завдань.
+                        Заняття з одним учнем онлайн за певним графіком. Консультування з вчителем між заняттями, отримання індивідуальних домашніх завдань.
                     </p>
-
                 </div>
-
             </div>
-
         </div>
     </section>
-
+    <!-- Код четвертої частини -->
     <section class="courses">
         <div class="container">
-
-            <h2 class="section__title" id="youtube">
-                Мій YouTube
-            </h2>
-
-            <div class="courses__slider">
-                <div class="courses__slider-item">
+            <h2 class="section__title" id="youtube">Мій YouTube</h2><!-- Заголовок четвертої частини -->
+            <div class="courses__slider"><!-- Оболонка слайдеру четвертої частини -->
+                <div class="courses__slider-item"><!-- Оболонка першого слайду четвертої частини -->
                     <div class="courses__slider-img">
-                        <img src="img/course_slider_1.jpg" alt="">
+                        <img src="img/course_slider_1.jpg" alt=""><!-- Зображення першого слайду четвертої частини -->
                     </div>
-                    <h3 class="courses__slider-title">
-                        Дизайн
-                    </h3>
-                    <p class="courses__slider-text">
-                        Серія практичних відео з демонстрацією виконання проектів у Photopea та Adobe Photoshop
+                    <h3 class="courses__slider-title">Дизайн</h3><!-- Заголовок першого слайду четвертої частини -->
+                    <p class="courses__slider-text"><!-- Опис першого слайду четвертої частини -->
+                        Серія практичних відео з демонстрацією виконання проектів у Photopea та Adobу Photoshop
                     </p>
-                    <div class="courses__slider-time">
-                        Середа, 18:00
-                    </div>
-                    <div class="courses__slider-teacher">
-                        Один раз на 2 тижні
-                    </div>
-                    <a href="" class="courses__slider-btn">Дивитись</a>
-
+                    <div class="courses__slider-time">Середа, 18:00</div><!-- Дадат та час першого слайду четвертої частини -->
+                    <div class="courses__slider-teacher">Один раз на 2 тижні</div><!-- Періодичність першого слайду четвертої частини -->
+                    <a href="" class="courses__slider-btn">Дивитись</a><!-- Посилання на зовнішній ресурс першого слайду четвертої частини -->
                 </div>
-                <div class="courses__slider-item">
+                <div class="courses__slider-item"><!-- Оболонка другого слайду четвертої частини -->
                     <div class="courses__slider-img">
                         <img src="img/course_slider_1.jpg" alt="">
                     </div>
-                    <h3 class="courses__slider-title">
-                        Kibibyte
-                    </h3>
+                    <h3 class="courses__slider-title">Kibibyte</h3>
                     <p class="courses__slider-text">
                         Серія практичних відео з основ програмування. Новітні уроки зі Scratch та Python
                     </p>
-                    <div class="courses__slider-time">
-                        Неділя, 10:30
-                    </div>
-                    <div class="courses__slider-teacher">
-                        Щотижня
-                    </div>
+                    <div class="courses__slider-time">Неділя, 10:30</div>
+                    <div class="courses__slider-teacher">Щотижня</div>
                     <a href="" class="courses__slider-btn">Дивитись</a>
                 </div>
-                <div class="courses__slider-item">
+                <div class="courses__slider-item"><!-- Оболонка третього слайду четвертої частини -->
                     <div class="courses__slider-img">
                         <img src="img/course_slider_1.jpg" alt="">
                     </div>
-                    <h3 class="courses__slider-title">
-                        Frontend
-                    </h3>
+                    <h3 class="courses__slider-title">Frontend</h3>
                     <p class="courses__slider-text">
                         Більш ніж 30 відео за темою створення сайтів. Практика HTML, CSS, JavaScript
                     </p>
-                    <div class="courses__slider-time">
-                        Субота, 19:00
-                    </div>
-                    <div class="courses__slider-teacher">
-                        Один раз на 2 тижні
-                    </div>
+                    <div class="courses__slider-time">Субота, 19:00</div>
+                    <div class="courses__slider-teacher">Один раз на 2 тижні</div>
                     <a href="" class="courses__slider-btn">Дивитись</a>
                 </div>
             </div>
-
         </div>
     </section>
-
-    <section class="client" id="clients">
+    <!-- Код п'ятої частини -->
+    <section class="client">
         <div class="container">
-            <h2 class="section__title">
-                Відгуки
-            </h2>
-            <div class="client__slider">
-                <div class="client__slider-item">
-                    <div class="client__slider-img client-1">
-
-                    </div>
-                    <div class="client__slider-text">
+            <h2 class="section__title" id="clients">Відгуки</h2><!-- Заголовок п'ятої частини -->
+            <div class="client__slider"><!-- Оболонка слайдеру п'ятої частини -->
+                <div class="client__slider-item"><!-- Оболонка першого слайду п'ятої частини -->
+                    <div class="client__slider-img client-1"></div><!-- Для цього елементу в CSS вказано зображення першого слайду п'ятої частини -->
+                    <div class="client__slider-text"><!-- Текст першого слайду п'ятої частини -->
                         Гарне і доступне пояснення. Дякую. Цікавить відео по створення колажів в цьому редакторі.
                         <br>[Тамара]
                     </div>
                 </div>
-                <div class="client__slider-item">
-                    <div class="client__slider-img client-2">
-
-                    </div>
+                <div class="client__slider-item"><!-- Оболонка другого слайду п'ятої частини -->
+                    <div class="client__slider-img client-2"></div>
                     <div class="client__slider-text">
-                        Канал Івана - дуже крутий, а головне, що автор каналу вміє структуровано пояснювати
-                        та активно допомагає студентам в навчанні.
+                        Канал Івана - дуже крутий, а головне, що автор каналу вміє структуровано пояснювати та активно допомагає студентам в навчанні.
                         <br>
                         [Максим]
                     </div>
@@ -239,32 +181,26 @@
             </div>
         </div>
     </section>
-
-    <section class="contact" id="contacts">
+    <!-- Код шостої частини -->
+    <section class="contact">
         <div class="container">
-            <h2 class="section__title">
-                Контакти
-            </h2>
-
-            <div class="contact__info">
-                <div class="contact__email"><a href="mailto:learningtogetherua@gmail.com">gmail.com</a></div>
-                <div class="contact__phone"><a href="tel:+380664172847"> +38 066 417 28 47</a></div>
+            <h2 class="section__title" id="contacts">Контакти</h2><!-- Заголовок шостої частини -->
+            <div class="contact__info"><!-- Оболонка різних контактів шостої частини -->
+                <div class="contact__email"><a href="mailto:learningtogetherua@gmail.com">gmail.com</a></div><!-- Електронна пошта з викликом поштового клієнта -->
+                <div class="contact__phone"><a href="tel:+380664172847"> +38 066 417 28 47</a></div><!-- Номер телефону з функцією виклику програми яка визначена для набору номеру -->
             </div>
-
-
         </div>
     </section>
+    <!-- Код сьомої частини -->
     <footer class="footer">
         <div class="container">
-            <img src="img/logo.png" alt="">
-            <h1 class="header__title"><a href="#">Навчаємося Разом</a></h1>
+            <img src="img/logo.png" alt=""><!-- Зображення сьомої частини -->
+            <h1 class="header__title"><a href="#">Навчаємося Разом</a></h1><!-- Назва сайту у сьомій частині -->
         </div>
     </footer>
 
-    <script src="js/jquery.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/main.js"></script>
-
+    <script src="js/jquery.js"></script><!-- В цьому файлі НЕ варто робити зміни -->
+    <script src="js/slick.min.js"></script><!-- В цьому файлі НЕ варто робити зміни -->
+    <script src="js/main.js"></script><!-- В цьому файлі можна робити зміни за умови наявності мінімальних знань з jQuery або налаштувань певного додаткового плагіна -->
 </body>
-
 </html>
